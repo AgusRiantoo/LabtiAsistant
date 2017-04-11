@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Labti Assistant</string>
+    <string name="title_home">Dashboard</string>
+    <string name="title_jadwal">Schedule</string>
+    <string name="title_history">History</string>
+    <string name="informasi">Informasi</string>
+    <string name="caption">&quot;Hanya untuk pribadi mohon tidak disebar keluar&quot;</string>
+    <string name="description">
+        Aplikasi ini merupakan tools untuk membantu Asisten Laboratorium Teknik Informatika (LAB TI)
+        dalam mencatatat Jadwal jaga di LAB dan perkiraan pendapatan yang diperolehnya. Aplikasi ini
+        bersifat pribadi, jadi mohon tidak disebarkan ke pihak luar. Developer tidak bertanggung jawab
+        apabila nantinya aplikasi ini disebar tanpa sepengetahuan developer. -AR.
+    </string>
+    <string name="app_name_version">Version 1.0</string>
+
+    <string-array name="n_hari">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+
+    <string-array name="n_job">
+        <item>Asisten</item>
+        <item>PJ</item>
+    </string-array>
+
+    <string-array name="n_tingkat">
+        <item>Dasar</item>
+        <item>Menengah</item>
+        <item>Lanjut</item>
+    </string-array>
+
+</resources>

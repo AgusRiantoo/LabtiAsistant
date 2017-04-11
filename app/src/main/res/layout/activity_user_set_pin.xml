@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    android:gravity="center"
+    android:padding="26dp"
+    tools:context="app.ar.labtiassistant.activity.UserLogin">
+
+
+    <ImageView
+        android:layout_margin="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_closed_lock"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:textAlignment="center"
+        android:padding="12dp"
+        android:textColor="@android:color/white"
+        android:text="Enter your secret PIN !"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/et_input_pin_1"
+        android:inputType="numberPassword"
+        android:textAlignment="center"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:hint="Insert here.."
+        android:maxLength="6"
+        android:padding="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/et_input_pin_2"
+        android:inputType="numberPassword"
+        android:textAlignment="center"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:hint="Repeat here.."
+        android:maxLength="6"
+        android:padding="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_submit"
+        style="@style/tombol"
+        android:text="Save pin"
+        android:layout_marginBottom="106dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
